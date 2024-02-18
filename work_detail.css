@@ -1,0 +1,226 @@
+html,
+body {
+  padding: 0;
+  font-family: Heebo, sans-serif;
+  margin-bottom: 100px;
+  margin: 0;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+header a {
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+  color: #21243d;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+header .fa-solid {
+  display: none;
+}
+.dashboard-title
+{
+  font-size: 34px;
+  font-weight: bold;
+  margin-left:235px ;
+  margin-top: 148px;
+  line-height: 45px;
+  width: 500px;
+  color: #21243d;
+  margin-bottom: 0;
+}
+.dashboard-year
+{
+  display: flex;
+  margin-left: 238px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dashboard-2020
+{
+  height: 25px;
+  width: 62px;
+  border-radius: 16px;
+  background-color: #FF7C7C;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.dashboard{
+  margin-left:22px ;
+  font-size: 22px;
+  color: #21243d;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.dashboard-content
+{
+  font-size: 16px;
+  color:#000 ;
+  width:630px ;
+  margin-left: 235px;
+}
+.dashboard-image img{
+  height:460px ;
+  width:681px ;
+  margin-left: 235px;
+  margin-top: 25px;
+}
+.heading-1
+{
+  font-size: 30px;
+  font-weight:bold ;
+  color: #21243d;
+  margin-left: 235px;
+  margin-top: 45px;
+  margin-bottom: 0;
+}
+.heading-2
+{
+  font-size: 24px;
+  font-weight: bold;
+  color:#21243d;
+  margin-top:10px ;
+  margin-left: 235px;
+}
+.car-image img{
+  height: 460px;
+  width: 681px;
+  margin-left: 235px;
+  margin-top: 10px;
+}
+.order-image img{
+  height: 460px;
+  width: 681px;
+  margin-left: 235px;
+  margin-top: 10px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 80px;
+  margin-left: 460px;
+}
+
+.footer-copyright p {
+  margin-top: 20px;
+  font-size: 14px;
+  margin-left: 480px;
+}
+
+
+
+@media screen and (max-width:500px)
+{
+  body
+  {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Heebo,sans-serif;
+    margin-bottom: 50px;
+  }
+  header a{
+    display: none;
+  }
+  header .fa-solid
+  {
+    display: block;
+    font-size: 30px;
+    margin-top: 29px;
+    position: absolute;
+    margin-left: -40px;
+  }
+  .dashboard-title
+{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left:18px ;
+  margin-top:90px;
+  line-height: 40px;
+  width: 350px;
+  color: #21243d;
+  margin-bottom: 0;
+}
+.dashboard-year
+{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dashboard-2020
+{
+  height: 25px;
+  width: 62px;
+  border-radius: 16px;
+  background-color: #FF7C7C;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.dashboard{
+  margin-left:22px ;
+  font-size: 18px;
+  color: #21243d;
+  margin-top: 25px;
+  margin-bottom: 0;
+  width: 250px;
+}
+.dashboard-content{
+  margin-left: 18px;
+  font-size: 16px;
+  color: #000;
+  width: 338px;
+}
+.dashboard-image img {
+height: 256px;
+width: 339px;
+margin-left: 18px;
+}
+.heading-1{
+  font-size: 26px;
+  margin-left: 18px;
+}
+.heading-2{
+  font-size: 20px;
+  margin-left: 18px;
+}
+.car-image img {
+  height: 256px;
+  width: 339px;
+  margin-left: 18px;
+}
+
+.order-image img {
+  height: 256px;
+  width: 339px;
+  margin-left: 18px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 80px;
+  margin-left: 75px;
+}
+
+.footer-copyright p {
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 72px;
+}
+}
